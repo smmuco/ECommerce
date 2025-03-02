@@ -1,0 +1,17 @@
+C:\Users\90538\source\repos\ECommerceService\bin\Debug\net8.0\ECommerce.Service.deps.json
+C:\Users\90538\source\repos\ECommerceService\bin\Debug\net8.0\ECommerce.Service.dll
+C:\Users\90538\source\repos\ECommerceService\bin\Debug\net8.0\ECommerce.Service.pdb
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ECommerce.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ECommerce.Service.AssemblyInfoInputs.cache
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ECommerce.Service.AssemblyInfo.cs
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ECommerce.Service.csproj.CoreCompileInputs.cache
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ECommerce.Service.dll
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\refint\ECommerce.Service.dll
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ECommerce.Service.pdb
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ref\ECommerce.Service.dll
+C:\Users\90538\source\repos\ECommerceService\bin\Debug\net8.0\ECommerce.Core.dll
+C:\Users\90538\source\repos\ECommerceService\bin\Debug\net8.0\ECommerce.Data.dll
+C:\Users\90538\source\repos\ECommerceService\bin\Debug\net8.0\ECommerce.Data.pdb
+C:\Users\90538\source\repos\ECommerceService\bin\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ECommerce.Service.csproj.AssemblyReference.cache
+C:\Users\90538\source\repos\ECommerceService\obj\Debug\net8.0\ECommerc.C6EF674E.Up2Date

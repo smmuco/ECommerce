@@ -9,3 +9,15 @@ C:\Users\90538\source\repos\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.dll
 C:\Users\90538\source\repos\ECommerceCore\obj\Debug\net8.0\refint\ECommerce.Core.dll
 C:\Users\90538\source\repos\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.pdb
 C:\Users\90538\source\repos\ECommerceCore\obj\Debug\net8.0\ref\ECommerce.Core.dll
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\bin\Debug\net8.0\ECommerce.Core.deps.json
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\bin\Debug\net8.0\ECommerce.Core.dll
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\bin\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.AssemblyInfoInputs.cache
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.AssemblyInfo.cs
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.csproj.CoreCompileInputs.cache
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.sourcelink.json
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.dll
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\refint\ECommerce.Core.dll
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\ECommerce.Core.pdb
+C:\Users\90538\source\repos\ECommerce\ECommerceCore\obj\Debug\net8.0\ref\ECommerce.Core.dll

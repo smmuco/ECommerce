@@ -1,20 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\90538\\source\\repos\\ECommerceApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{60C11019-D111-49B6-9417-C62FEF0FF37C}|ECommerceApp.WebUI.csproj|c:\\users\\90538\\source\\repos\\ecommerceapp\\areas\\admin\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60C11019-D111-49B6-9417-C62FEF0FF37C}|ECommerceApp.WebUI.csproj|solutionrelative:areas\\admin\\views\\main\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60C11019-D111-49B6-9417-C62FEF0FF37C}|ECommerceApp.WebUI.csproj|c:\\users\\90538\\source\\repos\\ecommerceapp\\wwwroot\\admin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60C11019-D111-49B6-9417-C62FEF0FF37C}|ECommerceApp.WebUI.csproj|solutionrelative:wwwroot\\admin\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60C11019-D111-49B6-9417-C62FEF0FF37C}|ECommerceApp.WebUI.csproj|c:\\users\\90538\\source\\repos\\ecommerceapp\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60C11019-D111-49B6-9417-C62FEF0FF37C}|ECommerceApp.WebUI.csproj|solutionrelative:areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,43 +20,8 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\90538\\source\\repos\\ECommerceApp\\Areas\\Admin\\Views\\Main\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Main\\Index.cshtml",
-              "ToolTip": "C:\\Users\\90538\\source\\repos\\ECommerceApp\\Areas\\Admin\\Views\\Main\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Main\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-02T11:32:45.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\90538\\source\\repos\\ECommerceApp\\wwwroot\\admin\\index.html",
-              "RelativeDocumentMoniker": "wwwroot\\admin\\index.html",
-              "ToolTip": "C:\\Users\\90538\\source\\repos\\ECommerceApp\\wwwroot\\admin\\index.html",
-              "RelativeToolTip": "wwwroot\\admin\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwCAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-03-02T10:07:29.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\90538\\source\\repos\\ECommerceApp\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\90538\\source\\repos\\ECommerceApp\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-02T08:38:26.337Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },

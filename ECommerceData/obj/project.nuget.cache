@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mkQEirJi5K8=",
+  "dgSpecHash": "mCF8933PN/A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\90538\\source\\repos\\ECommerceData\\ECommerce.Data.csproj",
+  "projectFilePath": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceData\\ECommerce.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90538\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\90538\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

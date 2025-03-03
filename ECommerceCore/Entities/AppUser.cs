@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -16,9 +17,13 @@ namespace ECommerce.Core.Entities
         public string Email { get; set; }
         public string Password { get; set; }
         public string? Phone { get; set; }
+        [Display(Name = "Active?")]
         public bool IsActive { get; set; }
+        [Display(Name = "Admin?")]
         public bool IsAdmin { get; set; }
+        [Display (Name = "Create Date"), ScaffoldColumn(false)]
         public DateTime CreateDate { get; set; } = DateTime.Now;
+        [ScaffoldColumn (false)]
         public Guid? UserGuid { get; set; } = Guid.NewGuid();
     }
 }

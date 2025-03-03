@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Reflection;
 using ECommerce.Core.Entities;
-using ECommerce.Data.Configurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECommerce.Data
@@ -13,10 +7,10 @@ namespace ECommerce.Data
     public class DatabaseContext : DbContext
     {
         public DbSet <AppUser> AppUsers { get; set; }
-        public DbSet <Category> Brands { get; set;}
+        public DbSet <Brand> Brands { get; set;}
         public DbSet <Category> Categories { get; set; }
-        public DbSet <Product> Contacts { get; set; }
-        public DbSet <Product> News { get; set; }
+        public DbSet <Contact> Contacts { get; set; }
+        public DbSet <News> News { get; set; }
         public DbSet <Product> Products { get;set;}
         public DbSet <Slider> Sliders { get; set; }
 

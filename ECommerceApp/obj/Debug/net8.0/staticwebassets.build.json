@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dJPxT9w/Eth88uPx1FJVobd29pfq7jJ9qViHesyEI2k=",
+  "Hash": "kcY5B566vW+IElU4lrVrv3ZaJpju3dF1X8m78R4xneg=",
   "Source": "ECommerceApp.WebUI",
   "BasePath": "_content/ECommerceApp.WebUI",
   "Mode": "Default",
@@ -57,27 +57,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerceApp.WebUI.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\admin.zip",
-      "SourceId": "ECommerceApp.WebUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\",
-      "BasePath": "_content/ECommerceApp.WebUI",
-      "RelativePath": "admin#[.{fingerprint}]?.zip",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ei3k6ldsrj",
-      "Integrity": "OqfeXZj5KV30CI4Hxf72wFC2d1UQtD8ZfnAAHtuGbSo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\admin.zip"
     },
     {
       "Identity": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\admin\\401.html",
@@ -519,6 +498,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\indir.png",
+      "SourceId": "ECommerceApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\",
+      "BasePath": "_content/ECommerceApp.WebUI",
+      "RelativePath": "Image/indir#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hb42auf7wp",
+      "Integrity": "XbSqDJ/4woASZQ5lmyJnexNQ39HwDnLE9tlQnWDC9m8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\indir.png"
     },
     {
       "Identity": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\js\\site.js",
@@ -1740,88 +1740,6 @@
     }
   ],
   "Endpoints": [
-    {
-      "Route": "admin.ei3k6ldsrj.zip",
-      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\admin.zip",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "61808"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/x-zip-compressed"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OqfeXZj5KV30CI4Hxf72wFC2d1UQtD8ZfnAAHtuGbSo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:03:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ei3k6ldsrj"
-        },
-        {
-          "Name": "label",
-          "Value": "admin.zip"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OqfeXZj5KV30CI4Hxf72wFC2d1UQtD8ZfnAAHtuGbSo="
-        }
-      ]
-    },
-    {
-      "Route": "admin.zip",
-      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\admin.zip",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "61808"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/x-zip-compressed"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OqfeXZj5KV30CI4Hxf72wFC2d1UQtD8ZfnAAHtuGbSo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 02 Mar 2025 10:03:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OqfeXZj5KV30CI4Hxf72wFC2d1UQtD8ZfnAAHtuGbSo="
-        }
-      ]
-    },
     {
       "Route": "admin/401.ed1cmteubn.html",
       "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\admin\\401.html",
@@ -3705,6 +3623,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Image/indir.hb42auf7wp.png",
+      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\indir.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XbSqDJ/4woASZQ5lmyJnexNQ39HwDnLE9tlQnWDC9m8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 19:42:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hb42auf7wp"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/indir.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XbSqDJ/4woASZQ5lmyJnexNQ39HwDnLE9tlQnWDC9m8="
+        }
+      ]
+    },
+    {
+      "Route": "Image/indir.png",
+      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\indir.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XbSqDJ/4woASZQ5lmyJnexNQ39HwDnLE9tlQnWDC9m8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 19:42:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XbSqDJ/4woASZQ5lmyJnexNQ39HwDnLE9tlQnWDC9m8="
         }
       ]
     },

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ECommerce.Core.Entities;
 using ECommerce.Data;
+using ECommerceApp.WebUI.Utils;
 
 namespace ECommerceApp.WebUI.Areas.Admin.Controllers
 {
@@ -43,7 +39,7 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
 
             return View(brand);
         }
-
+        
         // GET: Admin/Brands/Create
         public IActionResult Create()
         {
@@ -51,14 +47,17 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
         }
 
         // POST: Admin/Brands/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create( Brand brand)
+        public async Task<IActionResult> Create( Brand brand, IFormFile? Logo)
         {
             if (ModelState.IsValid)
             {
+                if (Logo != null && Logo.Length>0) 
+                {
+                brand.Logo = await FileHelper.FileLoaderAsync(Logo);
+                }
                 _context.Add(brand);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -83,11 +82,10 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
         }
 
         // POST: Admin/Brands/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Brand brand)
+        public async Task<IActionResult> Edit(int id, Brand brand, IFormFile Logo)
         {
             if (id != brand.Id)
             {
@@ -98,6 +96,10 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
             {
                 try
                 {
+                    if (Logo is not null)
+                    {
+                        brand.Logo = await FileHelper.FileLoaderAsync(Logo);
+                    }
                     _context.Update(brand);
                     await _context.SaveChangesAsync();
                 }

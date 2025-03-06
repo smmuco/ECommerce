@@ -85,7 +85,7 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Brand brand, IFormFile Logo)
+        public async Task<IActionResult> Edit(int id, Brand brand, IFormFile? Logo, bool deleteLogo = false)
         {
             if (id != brand.Id)
             {
@@ -96,6 +96,10 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
             {
                 try
                 {
+                    if (deleteLogo)
+                    {
+                        brand.Logo = null;
+                    }
                     if (Logo is not null)
                     {
                         brand.Logo = await FileHelper.FileLoaderAsync(Logo);
@@ -145,6 +149,10 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
             var brand = await _context.Brands.FindAsync(id);
             if (brand != null)
             {
+                if (!string.IsNullOrEmpty(brand.Logo)) 
+                {
+                    FileHelper.FileRemover(brand.Logo);          
+                }
                 _context.Brands.Remove(brand);
             }
 

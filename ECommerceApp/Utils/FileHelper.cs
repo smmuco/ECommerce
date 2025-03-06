@@ -8,7 +8,9 @@
             if (formFile != null && formFile.Length > 0)
             {
                 
-                fileName = formFile.FileName.ToLower();
+                string extension = formFile.FileName.ToLower();
+                fileName = $"{Guid.NewGuid()}{extension}";
+
                 string directory = Directory.GetCurrentDirectory() + "/wwwroot" + filePath + fileName;
                 using var stream = new FileStream(directory, FileMode.Create);
                 await formFile.CopyToAsync(stream);

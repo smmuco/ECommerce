@@ -19,7 +19,7 @@
                 @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Descripton)
+                @Html.DisplayNameFor(model => model.CreateDate)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Image)
@@ -49,10 +49,10 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Descripton)
+                @item.CreateDate.ToShortDateString()
             </td>
             <td>
-                    <img src="/Image/Categories/@item.Image" alt="" height="30" />
+                <img src="/Image/Categories/@item.Image" alt="" height="30" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IsActive)

@@ -90,7 +90,7 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
        
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Category category,IFormFile? Image, bool deleteLogo = false)
+        public async Task<IActionResult> Edit(int id, Category category,IFormFile? Image, bool deleteImage = false)
         {
             if (id != category.Id)
             {
@@ -101,7 +101,7 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
             {
                 try
                 {
-                    if (deleteLogo)
+                    if (deleteImage)
                     {
                         category.Image = null;
                     }

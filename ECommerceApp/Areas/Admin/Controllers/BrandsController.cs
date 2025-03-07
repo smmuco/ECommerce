@@ -152,7 +152,7 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
             {
                 if (!string.IsNullOrEmpty(brand.Logo)) 
                 {
-                    FileHelper.FileRemover(brand.Logo, "/Image/Brands/");          
+                    FileHelper.FileRemover(brand.Logo,"/Image/Brands/");          
                 }
                 _context.Brands.Remove(brand);
             }

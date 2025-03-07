@@ -2,28 +2,30 @@
 using Microsoft.EntityFrameworkCore;
 using ECommerce.Core.Entities;
 using ECommerce.Data;
-using ECommerceApp.WebUI.Utils;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using ECommerceApp.WebUI.Utils;
+using System.Drawing.Drawing2D;
+using System.Drawing;
 
 namespace ECommerceApp.WebUI.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class BrandsController : Controller
+    public class CategoriesController : Controller
     {
         private readonly DatabaseContext _context;
 
-        public BrandsController(DatabaseContext context)
+        public CategoriesController(DatabaseContext context)
         {
             _context = context;
         }
 
-        // GET: Admin/Brands
+        // GET: Admin/Categories
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Brands.ToListAsync());
+            return View(await _context.Categories.ToListAsync());
         }
 
-        // GET: Admin/Brands/Details/5
+        // GET: Admin/Categories/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -31,42 +33,44 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var brand = await _context.Brands
+            var category = await _context.Categories
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (brand == null)
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(brand);
+            return View(category);
         }
-        
-        // GET: Admin/Brands/Create
-        public IActionResult Create()
+
+        // GET: Admin/Categories/Create
+        public async Task<IActionResult> CreateAsync()
         {
+            ViewBag.ParentId = new SelectList(await _context.Categories.ToListAsync(),"Id","Name");
             return View();
         }
 
-        // POST: Admin/Brands/Create
-
+        // POST: Admin/Categories/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create( Brand brand, IFormFile? Logo)
+        public async Task<IActionResult> Create (Category category, IFormFile? Image)
         {
             if (ModelState.IsValid)
             {
-                if (Logo != null && Logo.Length>0) 
+                if (Image != null && Image.Length > 0)
                 {
-                brand.Logo = await FileHelper.FileLoaderAsync(Logo, "/Image/Brands/");
+                    category.Image = await FileHelper.FileLoaderAsync(Image, "/Image/Categories/");
                 }
-                _context.Add(brand);
+
+                await _context.AddAsync(category);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(brand);
+            ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
+            return View(category);
         }
 
-        // GET: Admin/Brands/Edit/5
+        // GET: Admin/Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -74,21 +78,21 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var brand = await _context.Brands.FindAsync(id);
-            if (brand == null)
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null)
             {
                 return NotFound();
             }
-            return View(brand);
+            return View(category);
         }
 
-        // POST: Admin/Brands/Edit/5
-        
+        // POST: Admin/Categories/Edit/5
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Brand brand, IFormFile? Logo, bool deleteLogo = false)
+        public async Task<IActionResult> Edit(int id, Category category,IFormFile? Image, bool deleteLogo = false)
         {
-            if (id != brand.Id)
+            if (id != category.Id)
             {
                 return NotFound();
             }
@@ -99,18 +103,18 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
                 {
                     if (deleteLogo)
                     {
-                        brand.Logo = null;
+                        category.Image = null;
                     }
-                    if (Logo is not null)
+                    if (Image != null && Image.Length > 0)
                     {
-                        brand.Logo = await FileHelper.FileLoaderAsync(Logo);
+                        category.Image = await FileHelper.FileLoaderAsync(Image, "/Image/Categories/");
                     }
-                    _context.Update(brand);
+                    _context.Update(category);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!BrandExists(brand.Id))
+                    if (!CategoryExists(category.Id))
                     {
                         return NotFound();
                     }
@@ -121,10 +125,11 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(brand);
+            ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
+            return View(category);
         }
 
-        // GET: Admin/Brands/Delete/5
+        // GET: Admin/Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -132,38 +137,38 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var brand = await _context.Brands
+            var category = await _context.Categories
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (brand == null)
+            if (category == null)
             {
                 return NotFound();
             }
 
-            return View(brand);
+            return View(category);
         }
 
-        // POST: Admin/Brands/Delete/5
+        // POST: Admin/Categories/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var brand = await _context.Brands.FindAsync(id);
-            if (brand != null)
+            var category = await _context.Categories.FindAsync(id);
+            if (category != null)
             {
-                if (!string.IsNullOrEmpty(brand.Logo)) 
+                if (!string.IsNullOrEmpty(category.Image))
                 {
-                    FileHelper.FileRemover(brand.Logo, "/Image/Brands/");          
+                    FileHelper.FileRemover(category.Image, "/Image/Categories/");
                 }
-                _context.Brands.Remove(brand);
+                _context.Categories.Remove(category);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool BrandExists(int id)
+        private bool CategoryExists(int id)
         {
-            return _context.Brands.Any(e => e.Id == id);
+            return _context.Categories.Any(e => e.Id == id);
         }
     }
 }

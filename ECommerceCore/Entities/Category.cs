@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ECommerce.Core.Entities
 {
@@ -17,6 +12,7 @@ namespace ECommerce.Core.Entities
         public bool IsActive { get; set; }
         [Display(Name = "Top Category")]
         public bool IsTopMenu { get; set; }
+        [Display(Name="Main Category")]
         public int ParentId { get; set; }
         [Display(Name = "Order No")]
         public int OrderNo { get; set; }

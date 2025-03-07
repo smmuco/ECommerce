@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\ECommerceApp.WebUI.3zcgb8v18c.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\indir.png",
-      "PackagePath": "staticwebassets\\Image\\indir.png"
+      "Id": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Brands\\24563c3d-27b7-43fa-9eb6-0fa5caddb365indir.png",
+      "PackagePath": "staticwebassets\\Image\\Brands\\24563c3d-27b7-43fa-9eb6-0fa5caddb365indir.png"
+    },
+    {
+      "Id": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\e393184a-4654-4f76-ab97-300c90a2f135indir.png",
+      "PackagePath": "staticwebassets\\Image\\Categories\\e393184a-4654-4f76-ab97-300c90a2f135indir.png"
     },
     {
       "Id": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\admin\\401.html",

@@ -46,7 +46,8 @@ namespace ECommerceApp.WebUI.Areas.Admin.Controllers
         // GET: Admin/Categories/Create
         public async Task<IActionResult> CreateAsync()
         {
-            ViewBag.ParentId = new SelectList(await _context.Categories.ToListAsync(),"Id","Name");
+            var topCategories = _context.Categories.Where(c=>c.ParentId==0).ToList();
+            ViewBag.ParentId = new SelectList(topCategories,"Id","Name");
             return View();
         }
 

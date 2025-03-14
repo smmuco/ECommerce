@@ -414,12 +414,30 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\Brands\24563c3d-27b7-43fa-9eb6-0fa5caddb365indir.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\Categories\e393184a-4654-4f76-ab97-300c90a2f135indir.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\Categories\541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ECommerceApp.WebUI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ECommerceApp.WebUI</BasePath>
-      <RelativePath>Image/Categories/e393184a-4654-4f76-ab97-300c90a2f135indir.png</RelativePath>
+      <RelativePath>Image/Categories/541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yosuwe0j5x</Fingerprint>
+      <Integrity>wsQ2yEaGPz5+dl+lsT7RBtKSDLuzfR2D2nmVVgp1alM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\Categories\541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\Categories\f2b290cb-57cb-4ccd-b209-c6d176665498indir.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ECommerceApp.WebUI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ECommerceApp.WebUI</BasePath>
+      <RelativePath>Image/Categories/f2b290cb-57cb-4ccd-b209-c6d176665498indir.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -430,7 +448,7 @@
       <Integrity>XbSqDJ/4woASZQ5lmyJnexNQ39HwDnLE9tlQnWDC9m8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\Categories\e393184a-4654-4f76-ab97-300c90a2f135indir.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\Categories\f2b290cb-57cb-4ccd-b209-c6d176665498indir.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

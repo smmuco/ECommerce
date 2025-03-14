@@ -20,7 +20,8 @@ wwwroot\admin\tables.html
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Image\Brands\24563c3d-27b7-43fa-9eb6-0fa5caddb365indir.png
-wwwroot\Image\Categories\e393184a-4654-4f76-ab97-300c90a2f135indir.png
+wwwroot\Image\Categories\541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg
+wwwroot\Image\Categories\f2b290cb-57cb-4ccd-b209-c6d176665498indir.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

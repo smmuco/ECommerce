@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R1amA763x5R467BzT0Tw7XswCPgPNIqs4F418uTCp0o=",
+  "Hash": "Ai7bcQIgoS3M8Qz+//p+l7yAP5CgjTH4hfCQdm0viSE=",
   "Source": "ECommerceApp.WebUI",
   "BasePath": "_content/ECommerceApp.WebUI",
   "Mode": "Default",
@@ -521,12 +521,33 @@
       "OriginalItemSpec": "wwwroot\\Image\\Brands\\24563c3d-27b7-43fa-9eb6-0fa5caddb365indir.png"
     },
     {
-      "Identity": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\e393184a-4654-4f76-ab97-300c90a2f135indir.png",
+      "Identity": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg",
       "SourceId": "ECommerceApp.WebUI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\",
       "BasePath": "_content/ECommerceApp.WebUI",
-      "RelativePath": "Image/Categories/e393184a-4654-4f76-ab97-300c90a2f135indir#[.{fingerprint}]?.png",
+      "RelativePath": "Image/Categories/541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yosuwe0j5x",
+      "Integrity": "wsQ2yEaGPz5+dl+lsT7RBtKSDLuzfR2D2nmVVgp1alM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Categories\\541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\f2b290cb-57cb-4ccd-b209-c6d176665498indir.png",
+      "SourceId": "ECommerceApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\",
+      "BasePath": "_content/ECommerceApp.WebUI",
+      "RelativePath": "Image/Categories/f2b290cb-57cb-4ccd-b209-c6d176665498indir#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -539,7 +560,7 @@
       "Integrity": "XbSqDJ/4woASZQ5lmyJnexNQ39HwDnLE9tlQnWDC9m8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\Categories\\e393184a-4654-4f76-ab97-300c90a2f135indir.png"
+      "OriginalItemSpec": "wwwroot\\Image\\Categories\\f2b290cb-57cb-4ccd-b209-c6d176665498indir.png"
     },
     {
       "Identity": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\js\\site.js",
@@ -3730,8 +3751,90 @@
       ]
     },
     {
-      "Route": "Image/Categories/e393184a-4654-4f76-ab97-300c90a2f135indir.hb42auf7wp.png",
-      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\e393184a-4654-4f76-ab97-300c90a2f135indir.png",
+      "Route": "Image/Categories/541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg",
+      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wsQ2yEaGPz5+dl+lsT7RBtKSDLuzfR2D2nmVVgp1alM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 18:43:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wsQ2yEaGPz5+dl+lsT7RBtKSDLuzfR2D2nmVVgp1alM="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Categories/541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.yosuwe0j5x.jpg",
+      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wsQ2yEaGPz5+dl+lsT7RBtKSDLuzfR2D2nmVVgp1alM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 18:43:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yosuwe0j5x"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Categories/541f1c3e-b5c5-4b68-a78a-244e712565f2whatsapp görsel 2023-06-08 saat 00.03.02.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wsQ2yEaGPz5+dl+lsT7RBtKSDLuzfR2D2nmVVgp1alM="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Categories/f2b290cb-57cb-4ccd-b209-c6d176665498indir.hb42auf7wp.png",
+      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\f2b290cb-57cb-4ccd-b209-c6d176665498indir.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3752,7 +3855,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 16:21:05 GMT"
+          "Value": "Fri, 14 Mar 2025 18:43:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3766,7 +3869,7 @@
         },
         {
           "Name": "label",
-          "Value": "Image/Categories/e393184a-4654-4f76-ab97-300c90a2f135indir.png"
+          "Value": "Image/Categories/f2b290cb-57cb-4ccd-b209-c6d176665498indir.png"
         },
         {
           "Name": "integrity",
@@ -3775,8 +3878,8 @@
       ]
     },
     {
-      "Route": "Image/Categories/e393184a-4654-4f76-ab97-300c90a2f135indir.png",
-      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\e393184a-4654-4f76-ab97-300c90a2f135indir.png",
+      "Route": "Image/Categories/f2b290cb-57cb-4ccd-b209-c6d176665498indir.png",
+      "AssetFile": "C:\\Users\\90538\\source\\repos\\ECommerce\\ECommerceApp\\wwwroot\\Image\\Categories\\f2b290cb-57cb-4ccd-b209-c6d176665498indir.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3797,7 +3900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 16:21:05 GMT"
+          "Value": "Fri, 14 Mar 2025 18:43:20 GMT"
         },
         {
           "Name": "Cache-Control",
